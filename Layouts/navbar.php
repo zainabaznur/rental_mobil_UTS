@@ -199,7 +199,7 @@ $activeUrl = $_GET['url'] ?? ''; // Get the current URL parameter or default to 
                     </a>
                 </li>
                 <li class="nav-item">
-                    <a href="logout.php" class="nav-link <?php echo $activeUrl === 'jeniskendaraan' ? 'active' : ''; ?>">
+                    <a href="logout.php" class="nav-link <?php echo $activeUrl === 'logout' ? 'active' : ''; ?>">
                         <i class=></i> <!-- Icon for Jenis Kendaraan -->
                         <p>Logout</p>
                     </a>
